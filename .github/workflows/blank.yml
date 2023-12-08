@@ -68,4 +68,3 @@ jobs:
         mvn clean deploy -DmuleDeploy -Denvironment=dev -Dapp-name=hello-gr-0812 \
         -Dca.clientId=${{ secrets.CA_CLIENT_ID }} -Dca.clientSecret=${{ secrets.CA_CLIENT_SECRET }} \
         -DbusinessGroupId=${{ secrets.BUSINESS_GROUP_ID }} -Dcicd.welcome.message="Welcome to Cloudhub1" -Duser="Miss G"
-  
